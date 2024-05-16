@@ -1,6 +1,6 @@
 The page contains supported markdown marking
 
-Basic markdown is supported. 
+Basic markdown is supported.   
 You can find basic syntax here for axample - [https://www.markdownguide.org/basic-syntax/](https://www.markdownguide.org/basic-syntax/)
 
 ### Tables
