@@ -11,20 +11,6 @@ Example:
 ##### Heading level 5
 ###### Heading level 6
 
-# Heading IDs
-Many Markdown processors support custom IDs for headings — some Markdown processors automatically add them. Adding custom IDs allows you to link directly to headings and modify them with CSS. To add a custom heading ID, enclose the custom ID in curly braces on the same line as the heading.
-
-### My Great Heading {#custom-id}
-
-
-# Highlight
-This isn’t common, but some Markdown processors allow you to highlight text. The result looks like this. To highlight words, use two equal signs (==) before and after the words.
-
-    I need to highlight these ==very important words==.
-The rendered output looks like this:
-I need to highlight these ==very important words==.
-
-
 # Subscript
 This isn’t common, but some Markdown processors allow you to use subscript to position one or more characters slightly below the normal line of type. To create a subscript, use one tilde symbol (~) before and after the characters.
 
