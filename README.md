@@ -1,2 +1,2 @@
 # mdtodocs
-Project for documents publication with Docs as Code approach (from MD files to docs)
+FOR Docs as Code testing (from MD files to docs, html etc.)
