@@ -4,6 +4,14 @@ Nearly all Markdown applications support the basic syntax outlined in the origin
 # Headings
 
 Example:
+    # Heading level 1
+    ## Heading level 2
+    ### Heading level 3
+    #### Heading level 4
+    ##### Heading level 5
+    ###### Heading level 6
+
+Result:
 # Heading level 1
 ## Heading level 2
 ### Heading level 3
