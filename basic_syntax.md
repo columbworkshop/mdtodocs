@@ -475,6 +475,7 @@ Example:
     My favorite search engine is [Yandex](https://yandex.ru).
 
 Result:
+
 My favorite search engine is [Yandex](https://yandex.ru).
 
 
@@ -484,6 +485,7 @@ You can optionally add a title for a link. This will appear as a tooltip when th
 ``` My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").```
 
 The rendered output looks like this:
+
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 
 ## URLs and Email Addresses
@@ -494,7 +496,8 @@ To quickly turn a URL or email address into a link, enclose it in angle brackets
 ```
 
 The rendered output looks like this:
-<https://www.markdownguide.org>
+
+<https://www.markdownguide.org>  
 <fake@example.com>
 
 
@@ -507,9 +510,10 @@ See the section on [`code`](#code).
 ```
 
 The rendered output looks like this:
-I love supporting the **[EFF](https://eff.org)**.
-This is the *[Markdown Guide](https://www.markdownguide.org)*.
-See the section on [`code`](#code).
+
+I love supporting the **[EFF](https://eff.org)**.  
+This is the *[Markdown Guide](https://www.markdownguide.org)*.  
+See the section on [`code`](#code).  
 
 
 
@@ -520,7 +524,8 @@ To add an image, add an exclamation mark (!), followed by alt text in brackets, 
 ```
 
 The rendered output looks like this:
-![The Security is beautiful!](/assets/images/image.png "Security")
+
+![The Security is beautiful!](/assets/images/image.png "Security")  
 
 # Linking Images
 To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
@@ -529,7 +534,8 @@ To add a link to an image, enclose the Markdown for the image in brackets, and t
 ```
 
 The rendered output looks like this:
-[![The Security is beautiful!](/assets/images/image.png "Security")](https://www.cisecurity.org/cis-benchmarks)
+
+[![The Security is beautiful!](/assets/images/image.png "Security")](https://www.cisecurity.org/cis-benchmarks)  
 
 
 
@@ -552,6 +558,7 @@ To add a table, use three or more hyphens (---) to create each column’s header
 | Header      | Title       |
 | Paragraph   | Text        |
 ```
+
 The rendered output looks like this:
 | Syntax      | Description |
 | ----------- | ----------- |
@@ -568,6 +575,7 @@ You can align text in the columns to the left, right, or center by adding a colo
 ```
 
 The rendered output looks like this:
+
 | Syntax      | Description | Test Text     |
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
@@ -588,6 +596,7 @@ The basic Markdown syntax allows you to create code blocks by indenting lines by
       "age": 25
     }
     ```
+
 The rendered output looks like this:
 
 ```
@@ -608,6 +617,8 @@ Many Markdown processors support syntax highlighting for fenced code blocks. Thi
       "age": 25
     }
     ```
+
+The rendered output looks like this:
 
 ```json
 {
