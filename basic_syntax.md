@@ -25,6 +25,7 @@ This isn’t common, but some Markdown processors allow you to use subscript to 
 
     H~2~O
 The rendered output looks like this:
+
 H~2~O
 
 
@@ -33,6 +34,7 @@ This isn’t common, but some Markdown processors allow you to use superscript t
 
     X^2^
 The rendered output looks like this:
+
 X^2^
 
 
@@ -45,14 +47,26 @@ I think I'll use it to format all of my documents from now on.
 # Line Breaks
 
 Example:
+
+    This is the first line.  
+    And this is the second line.
+Result:    
 This is the first line.  
 And this is the second line.
+
+
 
 # Emphasis
 ## Bold
 To bold text, add two asterisks or underscores before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.
 
 Example:
+
+    I just love **bold text**.
+    I just love __bold text__.
+    Love**is**bold
+
+Result: 
 I just love **bold text**.
 I just love __bold text__.
 Love**is**bold
@@ -61,6 +75,12 @@ Love**is**bold
 To italicize text, add one asterisk or underscore before and after a word or phrase. To italicize the middle of a word for emphasis, add one asterisk without spaces around the letters.
 
 Example:
+
+    Italicized text is the *cat's meow*.
+    Italicized text is the _cat's meow_.
+    A*cat*meow
+
+Result: 
 Italicized text is the *cat's meow*.
 Italicized text is the _cat's meow_.
 A*cat*meow
@@ -69,22 +89,42 @@ A*cat*meow
 To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase. To bold and italicize the middle of a word for emphasis, add three asterisks without spaces around the letters.
 
 Example:
+
+    This text is ***really important***.
+    This text is ___really important___.
+    This text is __*really important*__.
+    This text is **_really important_**.
+    This is really***very***important text.
+
+Result: 
 This text is ***really important***.
 This text is ___really important___.
 This text is __*really important*__.
 This text is **_really important_**.
 This is really***very***important text.
 
+
+
 # Blockquotes
 To create a blockquote, add a > in front of a paragraph.
 
 Example:
+
+    > Dorothy followed her through many of the beautiful rooms in her castle.
+
+Result: 
 > Dorothy followed her through many of the beautiful rooms in her castle.
 
 ## Blockquotes with Multiple Paragraphs
 Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs.
 
 Example:
+
+    > Dorothy followed her through many of the beautiful rooms in her castle.
+    >
+    > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+Result:
 > Dorothy followed her through many of the beautiful rooms in her castle.
 >
 > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
@@ -93,19 +133,38 @@ Example:
 Blockquotes can be nested. Add a >> in front of the paragraph you want to nest.
 
 Example:
+
+    > Dorothy followed her through many of the beautiful rooms in her castle.
+    >
+    >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+Result:
 > Dorothy followed her through many of the beautiful rooms in her castle.
 >
 >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 
+
+
 ## Blockquotes with Other Elements
 Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you’ll need to experiment to see which ones work.
 Example:
+
+    > #### The quarterly results look great!
+    >
+    > - Revenue was off the chart.
+    > - Profits were higher than ever.
+    >
+    >  *Everything* is going according to **plan**.
+
+Result:
 > #### The quarterly results look great!
 >
 > - Revenue was off the chart.
 > - Profits were higher than ever.
 >
 >  *Everything* is going according to **plan**.
+
+
 
 # Lists
 You can organize items into ordered and unordered lists.
@@ -115,6 +174,13 @@ To create an ordered list, add line items with numbers followed by periods. The 
 
 ### Ordered Lists var 1
 Example:
+
+    1. First item
+    2. Second item
+    3. Third item
+    4. Fourth item
+
+Result:
 1. First item
 2. Second item
 3. Third item
@@ -122,6 +188,13 @@ Example:
 
 ### Ordered Lists var 2
 Example:
+
+    1. First item
+    1. Second item
+    1. Third item
+    1. Fourth item
+
+Result:
 1. First item
 1. Second item
 1. Third item
@@ -129,6 +202,13 @@ Example:
 
 ### Ordered Lists var 3
 Example:
+
+    1. First item
+    8. Second item
+    3. Third item
+    5. Fourth item
+
+Result:
 1. First item
 8. Second item
 3. Third item
@@ -136,6 +216,15 @@ Example:
 
 ### Ordered Lists var 4
 Example:
+
+    1. First item
+    2. Second item
+    3. Third item
+        1. Indented item
+        2. Indented item
+    4. Fourth item
+
+Result:
 1. First item
 2. Second item
 3. Third item
@@ -148,6 +237,14 @@ To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in
 
 ### Unordered Lists var 1
 Example:
+
+    - First item
+    - Second item
+    - Third item
+    - Fourth item
+
+
+Result:
 - First item
 - Second item
 - Third item
@@ -155,6 +252,12 @@ Example:
 
 ### Unordered Lists var 2
 Example:
+
+    * First item
+    * Second item
+    * Third item
+    * Fourth item
+Result:
 * First item
 * Second item
 * Third item
@@ -162,6 +265,13 @@ Example:
 
 ### Unordered Lists var 3
 Example:
+
+    + First item
+    + Second item
+    + Third item
+    + Fourth item
+
+Result:
 + First item
 + Second item
 + Third item
@@ -169,6 +279,15 @@ Example:
 
 ### Unordered Lists var 4
 Example:
+
+    - First item
+    - Second item
+    - Third item
+        - Indented item
+        - Indented item
+    - Fourth item
+
+Result:
 - First item
 - Second item
 - Third item
@@ -180,6 +299,11 @@ Example:
 If you need to start an unordered list item with a number followed by a period, you can use a backslash (\) to escape the period.
 
 Example:
+
+    - 1968\. A great year!
+    - I think 1969 was second best.
+
+Result:
 - 1968\. A great year!
 - I think 1969 was second best.
 
@@ -188,6 +312,15 @@ Example:
 ### Paragraphs
 
 Example:
+
+    * This is the first list item.
+    * Here's the second list item.
+    
+        I need to add another paragraph below the second list item.
+    
+    * And here's the third list item.
+
+Result:
 * This is the first list item.
 * Here's the second list item.
 
@@ -198,6 +331,15 @@ Example:
 ### Blockquotes
 
 Example:
+
+    * This is the first list item.
+    * Here's the second list item.
+    
+        > A blockquote would look great below the second list item.
+    
+    * And here's the third list item.
+
+Result:
 * This is the first list item.
 * Here's the second list item.
 
@@ -210,6 +352,18 @@ Example:
 Code blocks are normally indented four spaces or one tab. When they’re in a list, indent them eight spaces or two tabs.
 
 Example:
+
+    1. Open the file.
+    2. Find the following code block on line 21:
+    
+            <html>
+              <head>
+                <title>Test</title>
+              </head>
+    
+    3. Update the title to match the name of your website.
+
+Result:
 1. Open the file.
 2. Find the following code block on line 21:
 
@@ -225,6 +379,15 @@ Example:
 ### Images
 
 Example:
+
+    1. Open the file containing the image.
+    2. Security at its beauty.
+    
+        ![Security at its beauty](/assets/images/image.png)
+    
+    3. Close the file.
+
+Result:
 1. Open the file containing the image.
 2. Security at its beauty.
 
@@ -237,6 +400,15 @@ Example:
 You can nest an unordered list in an ordered list, or vice versa.
 
 Example:
+
+    1. First item
+    2. Second item
+    3. Third item
+        - Indented item
+        - Indented item
+    4. Fourth item
+
+Result:
 1. First item
 2. Second item
 3. Third item
@@ -251,19 +423,27 @@ Example:
 To denote a word or phrase as code, enclose it in backticks (`).
 
 Example:
+
+    At the command prompt, type `nano`.
+
+Result:
 At the command prompt, type `nano`.
 
 ## Escaping Backticks
 If the word or phrase you want to denote as code includes one or more backticks, you can escape it by enclosing the word or phrase in double backticks (``).
 
 Example:
+
+    ``Use `code` in your Markdown file.``
+
+Result:
 ``Use `code` in your Markdown file.``
 
 
 ## Code Blocks
 To create code blocks, indent every line of the block by at least four spaces or one tab.
 
-Example:
+Result:
 
     <html>
       <head>
@@ -275,13 +455,12 @@ Example:
 To create a horizontal rule, use three or more asterisks (***), dashes (---), or underscores (___) on a line by themselves.
 
 Example:
-```
-***
----
-_________________
-```
 
-Render: 
+    ***
+    ---
+    _________________
+
+Result:
 ***
 ---
 _________________
@@ -292,6 +471,10 @@ _________________
 To create a link, enclose the link text in brackets (e.g., [Duck Duck Go]) and then follow it immediately with the URL in parentheses (e.g., (https://duckduckgo.com)).
 
 Example:
+
+    My favorite search engine is [Yandex](https://yandex.ru).
+
+Result:
 My favorite search engine is [Yandex](https://yandex.ru).
 
 
